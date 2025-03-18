@@ -2,7 +2,7 @@ import axios from "axios";
 import React, { useState } from "react";
 import gmail from "../../assets/icons/gmail.png";
 import letter from "../../assets/icons/letter.png";
-import linkedIn from "../../assets/icons/linkedIn.png";
+import linkedin from "../../assets/icons/linkedin.png";
 import viber from "../../assets/icons/viber.png";
 import Footer from "../../components/Footer.jsx";
 import github from "../../assets/icons/github.png";
@@ -102,7 +102,7 @@ const Contacts = () => {
           <div className="flex">
           <p>
             <a href="https://www.linkedin.com/in/brenda-karimi-872788288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
-           <img src={linkedIn} alt='Icon' className="h-5 w-5 m-2" /></a></p>
+           <img src={linkedin} alt='Icon' className="h-5 w-5 m-2" /></a></p>
   <p><a href='https://github.com/Brendathiaini'>
    <img src={github} alt="icon" className="h-5 w-5 m-2" /> </a></p>
 </div>
